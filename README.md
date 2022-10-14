@@ -1,46 +1,25 @@
-# Getting Started with Create React App and Redux
+Updated React nucampsite repo with hooks, function components, and RTK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Instructors:
 
-## Available Scripts
+Use:
 
-In the project directory, you can run:
+### `npm ci`
 
-### `npm start`
+to clean install the node_modules folder in any branch. Clean install means it will use the existing package-lock.json file and won't alter it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Use:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `git branch`
 
-### `npm test`
+to view the available branches. Each branch represents the nucampsite course project at the end of a particular exercise or workshop task.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Use:
 
-### `npm run build`
+### `git switch <branchname>`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To checkout and switch to a branch. You can use the files in that branch as an answer key, to compare against your students' for grading and to provide help. P
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Please do not share this repository with any students. It is for instructors' use only.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you find any issues with this repository, contact Nucamp's Director of Curriculum.
