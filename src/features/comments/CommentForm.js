@@ -1,8 +1,5 @@
 import { useState } from 'react';
-<<<<<<< HEAD
 import { useDispatch } from 'react-redux';
-=======
->>>>>>> 5093073d9fee2a7193f885ed3db1f32a2902f4fd
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import {
     Button,
@@ -13,35 +10,23 @@ import {
     FormGroup
 } from 'reactstrap';
 import { validateCommentForm } from '../../utils/validateCommentForm';
-<<<<<<< HEAD
 import { addComment } from './commentsSlice';
 
 const CommentForm = ({ campsiteId }) => {
     const [modalOpen, setModalOpen] = useState(false);
 
     const dispatch = useDispatch();
-=======
-
-const CommentForm = ({ campsiteId }) => {
-    const [modalOpen, setModalOpen] = useState(false);
->>>>>>> 5093073d9fee2a7193f885ed3db1f32a2902f4fd
 
     const handleSubmit = (values) => {
         const comment = {
             campsiteId: parseInt(campsiteId),
             rating: values.rating,
             author: values.author,
-<<<<<<< HEAD
             text: values.commentText,
             date: new Date(Date.now()).toISOString()
         };
         console.log('comment:', comment);
         dispatch(addComment(comment));
-=======
-            text: values.commentText
-        };
-        console.log('comment:', comment);
->>>>>>> 5093073d9fee2a7193f885ed3db1f32a2902f4fd
         setModalOpen(false);
     };
 
